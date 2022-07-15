@@ -1,0 +1,219 @@
+body{
+	
+	font-family: 'Outfit', sans-serif;
+	font-family: 'Proza Libre', sans-serif;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+  color: black;
+  transition-delay: 0.2s;
+}
+
+
+.content{
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	padding-left: 80px;
+	/*width: 100vw;*/
+	height: 115px;
+	display: flex;
+
+	background-color: #5E1B1B;
+	font-size: 26px;
+	align-items: center;
+	
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	/*width: 261px;*/
+	height: 60px;
+}
+
+
+.logo img{
+	height: 50px;
+}
+
+.menu{
+	font-family: Proza Libre;
+	color: white;
+	margin: auto;
+	display: flex;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 34px;
+	letter-spacing: 0.21em;
+
+}
+
+.menu_box{
+	margin: 0 5px;
+}
+
+.search{
+	margin: auto 50px auto 0;
+	
+}
+
+.search img{
+	/*width: 43px;*/
+	height: 32px;
+}
+
+.menu_icon_mobile,
+.mobile__menu, 
+.mobile__logo{
+	display: none;
+}
+
+/*footer*/
+
+.footer{
+	padding-right: 175px;
+	padding-left: 80px;
+	flex: 0 0 auto;
+	background-color: #5E1B1B;
+	height: 115px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.icons img{
+	height: 32px;
+	margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px){
+	.header__wrapper{
+		display: block;
+	}
+	.header{
+		padding: 15px 40px 15px 40px;
+		display: flex;
+		border-bottom: 2px solid black;
+		justify-content: space-between;
+
+	}
+	.logo{
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+	.mobile__menu.active{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #5E1B1B;
+		padding-bottom: 15px;
+	}
+	.mobile__menu a{
+		font-family: Proza Libre;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		
+		margin-top: 20px;
+
+		letter-spacing: 0.21em;
+	}
+	.search{
+		width: 43px;
+		order: 1;
+		margin: 0;
+	}
+
+	.mobile__logo{
+		order: 2;
+		display: block;
+		max-width: 66px;
+		margin: 0;
+	}
+
+	.mobile__logo img{
+		width: 100%;
+	}
+
+	.menu_icon_mobile{
+		max-width: 43px;
+		display: block;
+		order: 3;
+		margin: 0;
+	}
+	.menu_icon_mobile img{
+		width: 100%;
+
+	}
+	#text-area{
+		max-width: 90%;
+	}
+
+	table{
+		display: none;
+	}
+
+	.footer{
+		height: 100px;
+		padding: 0 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.icons{
+		display: flex;
+		justify-content: space-between;
+		
+		
+	}
+	.footer.logo{
+		display: none;
+	}
+	.icons img{
+		width: 100%;
+	}
+	#face{
+		order: 2;
+	}
+	#mape{
+		order: 1;
+	}
+	#inst{
+		order: 3;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
