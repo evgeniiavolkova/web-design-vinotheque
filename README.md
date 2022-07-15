@@ -11,5 +11,5 @@ The task was to conception and implement from scratch a website design concept f
 
 ### Vitrinepage
 
-<p align="center"><img src="preview/preview/vitrina-preview.gif" width="720"/></p>
+<p align="center"><img src="preview/vitrina-preview.gif" width="720"/></p>
 
